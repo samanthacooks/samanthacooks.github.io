@@ -139,7 +139,7 @@ a {
     background: rgba(255, 255, 255, 0.1); }
 
 .content-section {
-  padding-top: 100px; }
+  padding-top: 75px; }
 
 .portfolio-section {
   width: 100%;
@@ -181,8 +181,8 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: cadetblue;
+  border: 1px solid cadetblue;
   background-color: transparent; }
   .btn-default:hover, .btn-default:focus {
     color: grey;
