@@ -41,10 +41,10 @@ a {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  color: #42DCA3; }
+  color: cadetblue; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #1d9b6c; }
+    color: darkgrey; }
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -173,7 +173,7 @@ a {
 
 .btn {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -185,10 +185,10 @@ a {
   border: 1px solid cadetblue;
   background-color: transparent; }
   .btn-default:hover, .btn-default:focus {
-    color: grey;
-    border: 1px solid #42DCA3;
+    color: darkgrey;
+    border: 1px solid cadetblue;
     outline: none;
-    background-color: #42DCA3; }
+    background-color: cadetblue; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
