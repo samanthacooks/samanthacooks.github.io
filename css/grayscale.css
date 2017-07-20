@@ -41,7 +41,7 @@ a {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  color: gold; }
+  color: #b4aa9f; }
   a:hover, a:focus {
     text-decoration: none;
     color: cadetblue; }
@@ -181,8 +181,8 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: gold;
-  border: 1px solid gold;
+  color: #b4aa9f;
+  border: 1px solid #b4aa9f;
   background-color: transparent; }
   .btn-default:hover, .btn-default:focus {
     color: darkgrey;
