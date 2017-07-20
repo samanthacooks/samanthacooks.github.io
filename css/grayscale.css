@@ -178,7 +178,8 @@ a {
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   text-transform: uppercase;
-  border-radius: 0; }
+  border-radius: 0; 
+}
 
 .btn-default {
   color: #b4aa9f;
@@ -189,6 +190,11 @@ a {
     border: 1px solid cadetblue;
     outline: none;
     background-color: cadetblue; }
+
+.btn-space {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 
 ul.banner-social-buttons {
   margin-top: 0; }
