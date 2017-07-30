@@ -32,7 +32,7 @@
 <body id="page-top">
 
   <!-- Navigation -->
-    <nav id="otherNav" class="navbar fixed-top navbar-toggleable-md navbar-light navbar-default navbar-fixed-side">
+    <nav id="otherNav" class="navbar fixed-top navbar-toggleable-md navbar-light">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
             Menu <i class="fa fa-bars"></i>
         </button>
@@ -54,14 +54,14 @@
     <!-- Intro Header -->
     <header class="work">
         <div class="intro-body">
-            <div class="container">
+            <div >
                 <div class="row">
                     <div class="col-md-8 offset-md-2">
+                        <!-- <h4 class="brand-heading">Samantha Cooks</h4> -->
                         <h1 class="brand-heading"></h1>
+                        <img src="img/STC_3.png" class="img-fluid">
+                        <h3>Samantha Cooks | Freelance Web Developer</h3>
                         <p class="intro-text">Let's create something beautiful and meaningful together!</p>
-                       <!--  <a href="#work" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a> -->
                     </div>
                 </div>
             </div>
@@ -73,8 +73,8 @@
         <div class="work-section">
             <div class="container">
                 <div class="col-lg-8 offset-md-2">
-                    <h2>Project Portfolio</h2>
-                    <p>Please click any of the below for a display of my work. I have worked on </p>
+                    <h2>My Work</h2>
+                    <p>Below is a gallery of websites, landing pages, and blogs I've worked on. Click the title for more info or to be took to the website. </p>
                     <a href="https://budgetguru.github.io/" class="btn btn-default btn-lg btn-space" target="_self">BudgetGURU Mobile App</a>
                     <a href="https://github.com/samanthacooks/MadLab" class="btn btn-default btn-lg btn-space" target="_self">MadLab Tracker App</a>
                     <a href="https://github.com/samanthacooks/ruby-todos-1-0-core-features-challenge/tree/solo-samanthacooks" class="btn btn-default btn-lg btn-space" target="_self">Command Line To Do List</a>
@@ -89,20 +89,38 @@
         <div class="row">
             <div class="col-lg-8 offset-md-2">
                 <h2>Payment</h2>
-                <p>Feel free to email me!</p>
-                <p><a href="mailto:samtcooks@gmail.com">samtcooks@gmail.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li class="list-inline-item">
-                        <a href="https://github.com/samanthacooks" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.linkedin.com/in/samantha-cooks/" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                </ul>
+                <p>Pay for Quoted Services Below</p>
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="BUZVMT37META4">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+
             </div>
         </div>
     </section>
+
+        <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Samantha Cooks 2017</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
 
 </body>
 </html>
