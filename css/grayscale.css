@@ -91,6 +91,52 @@ a {
         #mainNav .nav-link.active:hover {
           color: white; } }
 
+  #otherNav {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: thistle; }
+  #otherNav .navbar-toggler {
+    font-size: 14px;
+    padding: 11px;
+    color: dimgrey;
+    border: 1px solid white; }
+  #otherNav .navbar-brand {
+    font-weight: 700; }
+  #otherNav a {
+    color: dimgrey; }
+  #otherNav .navbar-nav .nav-item {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out; }
+    #otherNav .navbar-nav .nav-item:hover {
+      color: fade(white, 80%);
+      outline: none;
+      background-color: transparent; }
+    #otherNav .navbar-nav .nav-item:focus, #otherNav .navbar-nav .nav-item:active {
+      outline: none;
+      background-color: transparent; }
+  @media (min-width: 768px) {
+    #otherNav {
+      padding: 20px 0;
+      -webkit-transition: background .25s ease-in-out, padding .25s ease-in-out;
+      -moz-transition: background .25s ease-in-out, padding .25s ease-in-out;
+      transition: background .25s ease-in-out, padding .25s ease-in-out;
+      letter-spacing: 1px;
+      border-bottom: none;
+      background: transparent; }
+      #otherNav.navbar-shrink {
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        background: thistle; }
+      #otherNav .nav-link.active {
+        outline: none;
+        background-color: rgba(255, 255, 255, 0.3); }
+        #otherNav .nav-link.active:hover {
+          color: white; } }
+
+
 .masthead {
   display: table;
   width: 100%;
@@ -120,6 +166,35 @@ a {
       .masthead .intro-body .intro-text {
         font-size: 22px; } }
 
+  .work {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: dimgrey;
+  background: url(../img/graypattern.jpg) no-repeat bottom center scroll;
+  background-color: grey;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .work .intro-body {
+    display: table-cell;
+    vertical-align: middle; }
+    .work .intro-body .brand-heading {
+      font-size: 40px; }
+    .work .intro-body .intro-text {
+      font-size: 18px; }
+  @media (min-width: 768px) {
+    .work {
+      height: 100%;
+      padding: 0; }
+      .work .intro-body .brand-heading {
+        font-size: 100px; }
+      .work .intro-body .intro-text {
+        font-size: 22px; } }
+
 .btn-circle {
   font-size: 26px;
   width: 50px;
@@ -139,13 +214,23 @@ a {
     background: rgba(255, 255, 255, 0.1); }
 
 .content-section {
-  padding-top: 75px; }
+  padding-top: 20px; }
 
 .portfolio-section {
   width: 100%;
-  padding: 50px 0;
+  padding: 30px 0;
   color: white;
   background: url(../img/mountains.jpg) no-repeat center center scroll;
+  background-color: grey;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+  .work-section {
+  width: 100%;
+  padding: 30px 0;
+  color: white;
   background-color: grey;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -164,7 +249,7 @@ a {
 
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 75px; }
+    padding-top: 10px; }
   .portfolio-section {
     padding: 100px 0; }
   #map {
@@ -233,4 +318,20 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
+
+.freelance {
+    font-size: 20px;
+    margin-top: 50px;
+    color: plum;
+    font-weight: bold;
+}
+
+.pay {
+  background: url(../img/mountains.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
 
